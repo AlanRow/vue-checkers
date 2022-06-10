@@ -1,3 +1,1 @@
-export type CheckersMapData = {
-  map: Array<Array<null | string>>;
-};
+export type CheckersMapData = ("black" | "white" | null)[][];

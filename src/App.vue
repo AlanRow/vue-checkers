@@ -7,14 +7,14 @@ import CheckersMap from "./components/CheckersMap.vue";
 import { CheckersMapData } from "./types/CheckersMap";
 
 const map: CheckersMapData = [
+  [null, "white", null, "white", null, "white", null, "white"],
+  ["white", null, "white", null, "white", null, "white", null],
+  [null, "white", null, "white", null, "white", null, "white"],
   [null, null, null, null, null, null, null, null],
   [null, null, null, null, null, null, null, null],
-  [null, null, null, null, null, null, null, null],
-  [null, null, null, null, null, null, null, null],
-  [null, null, null, null, null, null, null, null],
-  [null, null, null, null, null, null, null, null],
-  [null, null, null, null, null, null, null, null],
-  [null, null, null, null, null, null, null, null],
+  ["black", null, "black", null, "black", null, "black", null],
+  [null, "black", null, "black", null, "black", null, "black"],
+  ["black", null, "black", null, "black", null, "black", null],
 ];
 </script>
 
